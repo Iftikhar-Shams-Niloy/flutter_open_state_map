@@ -22,14 +22,20 @@ class _OpenStateMapScreen extends State<OpenStateMapScreen> {
           FlutterMap(
             mapController: _myMapController,
             options: MapOptions(
-              initialCenter: LatLng(0, 0),
-              initialZoom: 2,
-              minZoom: 0,
-              maxZoom: 100,
+              initialCenter: const LatLng(
+                40.7128,
+                -74.0060,
+              ), // New York City as default
+              initialZoom: 13.0,
+              minZoom: 3.0,
+              maxZoom: 18.0,
+              onTap: (tapPosition, point) {
+              },
             ),
             children: [
               TileLayer(
                 urlTemplate: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                userAgentPackageName: 'com.example.flutter_open_state _map',
               ),
               CurrentLocationLayer(
                 style: LocationMarkerStyle(
