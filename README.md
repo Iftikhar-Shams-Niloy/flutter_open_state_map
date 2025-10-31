@@ -12,7 +12,7 @@
 
 <h2>Overview</h2>
 
-<p>This repository provides a complete, production-ready example of how to use the <code>open_state_map</code> package in Flutter. Whether you're building a location-based app, a navigation tool, or any application requiring map functionality, this project showcases best practices and proper implementation patterns.</p>
+<p>This repository provides a complete, example of how to use the <code>open_state_map</code> package in Flutter. Whether you're building a location-based app, a navigation tool, or any application requiring map functionality, this project showcases best practices and proper implementation patterns.</p>
 
 <h2>Features</h2>
 
