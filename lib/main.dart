@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_open_state_map/screens/open_state_map_screen.dart';
+import 'package:flutter_open_state_map/screens/map_snapshot_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlueAccent),
       ),
-      home: OpenStateMapScreen(),
+      home: MapSnapshotScreen(),
     );
   }
 }
